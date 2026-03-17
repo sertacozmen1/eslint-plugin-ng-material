@@ -60,30 +60,27 @@ npm run check
 
 This command runs `npm pack --dry-run` and verifies which files will be included in the npm package.
 
-## GitHub ve npm Publish Checklist
+## Publishing (Maintainers)
 
-1. Update the `author` field in `package.json`.
+This section is only for maintainers of this plugin.
 
-2. Initialize Git and push to GitHub:
+1. Update the version in package.json.
+2. Verify the package contents:
 
 ```bash
-git init
-git add .
-git commit -m "Initial release"
-git branch -M main
-git remote add origin https://github.com/sertacozmen1/eslint-plugin-ng-material.git
-git push -u origin main
+npm run check
 ```
 
-3. Log in to npm:
+3. Run tests:
+
+```bash
+npm test
+```
+
+4. Publish to npm:
 
 ```bash
 npm login
-```
-
-4. Publish the package:
-
-```bash
 npm publish --access public
 ```
 
