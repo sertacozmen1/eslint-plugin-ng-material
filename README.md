@@ -1,6 +1,6 @@
 # eslint-plugin-ng-material
 
-Custom ESLint plugin that enforces camelCase Angular Material button directives.
+ESLint plugin for Angular that enforces camelCase naming for Angular Material button directives such as mat-button, mat-raised-button, and mat-icon-button.
 
 This plugin reports and auto-fixes the following patterns with `--fix`:
 
@@ -51,3 +51,7 @@ export default [
 ### ng-material/mat-button-camel-case
 
 Enforces camelCase usage instead of kebab-case for Angular Material button directives.
+
+## Keywords
+
+angular material button camelcase eslint mat-button mat-raised-button mat-icon-button naming convention enforce lint
