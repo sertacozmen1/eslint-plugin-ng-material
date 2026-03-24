@@ -1,4 +1,4 @@
-# eslint-plugin-ng-material
+# eslint-plugin-ng-material-camelcase
 
 ESLint plugin for Angular that enforces camelCase naming for Angular Material button directives such as mat-button, mat-raised-button, and mat-icon-button.
 
